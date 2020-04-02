@@ -472,7 +472,7 @@
 </div>
 <script>
 // 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getHours() + '.jpg)');
+$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
 </script>
 
 
@@ -593,7 +593,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getHou
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
 
-        var t1 = Date.UTC(2019, 08, 10, 00, 00, 00); //北京时间2019-8-1 00:00:00
+        var t1 = Date.UTC(2020, 03, 29, 00, 00, 00); 
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
@@ -609,6 +609,26 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getHou
 </script>
 
 
+
+<script>
+    $(document).ready(function () {
+
+        var int = setInterval(fixCount, 50);  // 50ms周期检测函数
+        var pvcountOffset = 80000;  // 初始化首次数据
+        var uvcountOffset = 20000;
+
+        function fixCount() {
+            if (document.getElementById("busuanzi_container_site_pv").style.display != "none") {
+                $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + pvcountOffset);
+                clearInterval(int);
+            }
+            if ($("#busuanzi_container_site_pv").css("display") != "none") {
+                $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + uvcountOffset); // 加上初始数据 
+                clearInterval(int); // 停止检测
+            }
+        }
+    });
+</script>
 
 
 
@@ -658,13 +678,13 @@ $(function () {
             <script async src="/libs/others/busuanzi.pure.mini.js"></script>
         
 
-        <!-- 洪卫 shw2018 add 2019.08.28 -->
+        
         <script type="text/javascript">
             var OriginTitile = document.title,
                 st;
             document.addEventListener("visibilitychange", function () {
-                document.hidden ? (document.title = "看不见我🙈~看不见我🙈~", clearTimeout(st)) : (document.title =
-                    "(๑•̀ㅂ•́) ✧被发现了～", st = setTimeout(function () {
+                document.hidden ? (document.title = "🌜~我在这儿😘别走好吗~🌛", clearTimeout(st)) : (document.title =
+                    "😜~最爱您了😄欢迎回来~😜", st = setTimeout(function () {
                         document.title = OriginTitile
                     }, 3e3))
             })
@@ -747,6 +767,19 @@ $(function () {
             }
             </script>
         
+
+
+        <!-- 天气接口控件 洪卫 shw2018 add 2019.09.09 --> 
+         
+            <!-- today -->
+<script type="text/javascript">
+    WIDGET = {FID: 'Qa6Cffm9fy'}
+    </script>
+    <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script> 
+            
+        
+
+
 
         <!-- 背景静止彩带  洪卫 shw 2018  add 2019.09.15-->
         
