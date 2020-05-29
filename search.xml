@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2020/04/03/don-t-angry/"/>
+      <url>/2020/04/03/don-t-angry/</url>
+      
+        <content type="html"><![CDATA[<p>人生就像一场戏，今世有缘才相聚。<br>相处一处不容易，人人应该去珍惜。<br>世上万物般般有，哪能件件如我意。<br>为了小事发脾气，回想起来又何必。<br>他人气我我不气，气出病来无人替。<br>生气伤肝又伤脾，促人衰老又生疾。<br>看病花钱又受罪，还说气病治非易。<br>小人量小不让人，常常气人气自己。<br>君子量大同天地，好事坏事包在里。<br>他人骂我我装聋，高声上天低入地。<br>我若错了真该骂，诚心改正受教育。<br>要是根本没那事，全当他是骂自己。<br>左亲右邻团结好，家庭和睦乐无比。<br>夫妻互助又亲爱，朝夕相伴笑嘻嘻。<br>政通人和想天伦，晚年幸福甜如蜜。<br>邻里亲友不要比，儿孙琐事随他去。<br>淡泊名利促健康，文明礼貌争第一。<br>清朝有个闫敬铭，领悟危害不生气。<br>弥勒就是布袋僧，袒胸大肚能忍气。<br>笑口常开无忧虑，一切疾病皆消去。<br>不气不气真不气，不气歌儿记心里。<br>只要你能做得到，活到百岁不足奇。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2020/04/02/hello-world/"/>
       <url>/2020/04/02/hello-world/</url>

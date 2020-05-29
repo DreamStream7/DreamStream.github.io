@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mayuqi.top/2020/04/03/don-t-angry/</loc>
+    
+    <lastmod>2020-04-21T14:51:13.041Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mayuqi.top/about/index.html</loc>
     
     <lastmod>2020-04-02T03:26:37.927Z</lastmod>
@@ -30,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://mayuqi.top/tags/index.html</loc>
+    <loc>https://mayuqi.top/categories/index.html</loc>
     
     <lastmod>2019-10-03T12:57:54.000Z</lastmod>
     
@@ -44,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://mayuqi.top/categories/index.html</loc>
+    <loc>https://mayuqi.top/tags/index.html</loc>
     
     <lastmod>2019-10-03T12:57:54.000Z</lastmod>
     
